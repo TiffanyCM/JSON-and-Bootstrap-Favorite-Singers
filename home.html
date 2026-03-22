@@ -1,0 +1,40 @@
+<!--
+Week 2 Assignment - JSON and Bootstrap
+Tiffany McKenzie
+3/22/26
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="JS/main.js" defer></script>  
+    </head>
+    <body style="background-color: #cfdefd;">
+        <h1 class="text-center">Favorite Singers</h1>
+        <div class="container-fluid mt-5 px-5">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="ado_image.png" class="img-fluid w-75">
+                </div>
+                <div class="col-sm-8">
+                    <table class="table fs-4 table-striped">
+                        <thead class="fs-3">
+                        <tr>
+                            <th>Name</th>
+                            <th>Hometown</th>
+                            <th>Best Song</th>
+                        </tr>
+                        </thead>
+                        <tbody id = "tableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--An HTML document is created and is linked with bootstrap 5 properties. In it a table with data from a javascript file is populated.
+The data includes the names, hometowns, and best songs of my favorite singers.-->
